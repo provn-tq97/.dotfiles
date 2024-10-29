@@ -49,7 +49,7 @@ exec --no-startup-id nm-applet
 
 # Use pactl to adjust volume in PulseAudio.
 # NOTE: use both bz why not
-# TODO: add notify send
+# TODO: add notify send & maybe on with and one without notify
 set $refresh_i3status killall -SIGUSR1 i3status
 bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ +5% && $refresh_i3status
 bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ -5% && $refresh_i3status
@@ -69,7 +69,7 @@ tiling_drag modifier titlebar
 
 # start a terminal
 bindsym $mod+Return exec kitty
-
+bindsym $mod+Shift+b exec firefox
 
 # kill focused window
 bindsym $mod+Shift+q kill
@@ -83,6 +83,7 @@ bindsym $mod+Shift+q kill
 # bindcode $mod+40 exec --no-startup-id i3-dmenu-desktop
 bindsym $mod+d exec --no-startup-id rofi -show drun -disable-history -show-icons
 
+# NOTE: Do I really need this?
 bindsym $mod+Shift+o exec --no-startup-id "rofi -show emoji"
 
 # change focus
