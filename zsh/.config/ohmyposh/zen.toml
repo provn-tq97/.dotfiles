@@ -1,0 +1,32 @@
+console_title_template = '{{ .Shell }} in {{ .Folder }}'
+version = 3
+final_space = true
+
+[[blocks]]
+type = 'prompt'
+alignment = 'left'
+
+[[blocks.segments]]
+type = 'path'
+style = 'plain'
+background = 'transparent'
+foreground = "p:pink"
+
+[blocks.segments.properties]
+home_icon = '~'
+style = 'full'
+
+[[blocks.segments]]
+type = 'text'
+style = 'plain'
+background = 'transparent'
+foreground = "p:closer"
+template = '❯'
+
+[palette]
+os = "#ACB0BE"
+closer = "p:os"
+pink = "#F5C2E7"
+lavender = "#B4BEFE"
+blue = "#89b4fa"
+red = "#f38ba8"
