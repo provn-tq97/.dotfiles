@@ -1,12 +1,19 @@
 {
     "layer": "top", // Waybar at top layer
     "position": "top", // Waybar position (top|bottom|left|right)
-    "modules-left": ["custom/distrologo", "hyprland/workspaces"],
-    "modules-center": [],
+    "modules-left": ["custom/distrologo", "hyprland/workspaces", "group/traygroup"],
+    "modules-center": ["hyprland/window"],
     "modules-right": ["group/sys-info", "battery", "clock", "custom/power"],
+    "group/traygroup": {
+        "modules": [
+            // irgendwann drawer?
+            "tray"
+        ],
+        "orientation": "horizontal"
+    },
     "group/sys-info": {
         "modules": [
-            "tray",
+            "network",
             "bluetooth",
             "group/volume",
             "group/brightness",
@@ -119,14 +126,17 @@
         "tooltip": true,
         "tooltip-format": "{percent}%"
     },
+    "hyprland/window": {
+        "format": "{}"
+    },
     "battery": {
         "states": {
             "warning": 30,
             "critical": 15
         },
-        "format": "{capacity}% <span size='13000' foreground='#a6e3a1'>{icon}</span> ",
-        "format-warning": "{capacity}% <span size='13000' foreground='#B1E3AD'>{icon}</span>",
-        "format-critical": "{capacity}% <span size='13000' foreground='#E38C8F'>{icon}</span>",
+        "format": "{capacity}% <span size='13000' foreground='#a6e3a1'>{icon}</span>  ",
+        "format-warning": "{capacity}% <span size='13000' foreground='#E38C8F'>{icon}</span>",
+        "format-critical": "{capacity}% <span size='13000' foreground='#f38ba8'>{icon}</span>",
         "format-charging": "{capacity}% <span size='13000' foreground='#B1E3AD'></span>",
         "format-plugged": "{capacity}% <span size='13000' foreground='#B1E3AD'></span>{",
         "format-full": "<{capacity}% span size='13000' foreground='#B1E3AD'></span>",
@@ -153,11 +163,17 @@
             "on-scroll": 1,
             "weeks-pos": "right"
         },
-         "interval": 60
+        "interval": 60
     },
     "custom/power": {
         "format" : "⏻",
         "tooltip": false,
         "on-click": "wlogout"
+    },
+    "network": {
+        "format": "󰖩",
+        // "tooltip": "{ifname}",
+        "tooltip-format": "{essid}",
+        "interval": 10
     },
 }
