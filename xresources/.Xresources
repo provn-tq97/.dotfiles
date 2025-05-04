@@ -1,0 +1,14 @@
+! dpi = 96 * scale
+! *dpi: 144
+! Xft.dpi: 144
+ 
+*dpi: 105
+Xft.dpi: 105 
+
+Xft.lcdfilter: lcddefault
+Xft.hintstyle: hintslight
+Xft.hinting: 1
+Xft.antialias: 1
+Xft.rgba: rgb
+
+Xcursor.size: 15

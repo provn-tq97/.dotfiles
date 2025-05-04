@@ -1,0 +1,163 @@
+{
+    "layer": "top", // Waybar at top layer
+    "position": "top", // Waybar position (top|bottom|left|right)
+    "modules-left": ["custom/distrologo", "hyprland/workspaces"],
+    "modules-center": [],
+    "modules-right": ["group/sys-info", "battery", "clock", "custom/power"],
+    "group/sys-info": {
+        "modules": [
+            "tray",
+            "bluetooth",
+            "group/volume",
+            "group/brightness",
+            "custom/notification"
+        ],
+        "orientation": "horizontal"
+    },
+    "group/brightness": {
+        "drawer": {
+            "children-class": "brightness",
+            "transition-duration": 500,
+            "transition-left-to-right": false 
+        },
+        "modules": [
+            "backlight",
+            "backlight/slider"
+        ],
+        "orientation": "horizontal"
+    },
+    "group/volume": {
+        "drawer": {
+            "children-class": "volume",
+            "transition-duration": 500,
+            "transition-left-to-right": false 
+        },
+        "modules": [
+            "pulseaudio",
+            "pulseaudio/slider"
+        ],
+        "orientation": "horizontal",
+    },
+    "pulseaudio/slider": {
+        "max": 100,
+        "min": 0,
+        "orientation": "horizontal",
+        "tooltip-format": "test",
+        "tooltip": true
+    },
+    "backlight/slider": {
+        "max": 100,
+        "min": 1,
+        "orientation": "horizontal",
+    },
+    "custom/distrologo": {
+        "format": "{icon}",
+        "tooltip-format": "I'm using Arch BTW",
+        "tooltip": true,
+        "format-icons": {
+            "default": "󰣇",
+        },
+        "on-click": "wofi --show drun"
+    },
+    "custom/notification": {
+        "escape": true,
+        "exec": "swaync-client -swb",
+        "exec-if": "which swaync-client",
+        "format": "{icon}",
+        "format-icons": {
+            "dnd-inhibited-none": "󰂚<sup></sup>",
+            "dnd-inhibited-notification": "󰂚<span foreground='#f38ba8'><sup></sup></span>",
+            "dnd-none": "󰂛",
+            "dnd-notification": "󰂛<span foreground='#f38ba8'><sup></sup></span>",
+            "inhibited-none": "󰂚<sup>󰜺</sup>",
+            "inhibited-notification": "󰵙<span foreground='#f38ba8'><sup></sup></span>",
+            "none": "󰂚<span color='#6c7086'><sup></sup></span>",
+            "notification": "󰂚<span foreground='#f38ba8'><sup></sup></span>"
+        },
+        "on-click": "sleep 0.1 && swaync-client -t -sw",
+        "on-click-right": "sleep 0.1 && swaync-client -d -sw",
+        "return-type": "json",
+        "tooltip": false
+    },
+    "hyprland/workspaces": {
+        "disable-scroll": true,
+        "sort-by-name": true,
+        "format": " {icon} ",
+        "format-icons": {
+            "default": "<span size='9000'></span>",
+        },
+    },
+    "pulseaudio": {
+        // "format": "{volume}% {icon}",
+        "format": "{icon}",
+        "format-icons": {
+            // "speaker": "test",
+            "default": ["", "", ""]
+        },
+        "on-click": "pavucontrol",
+        "tooltip": true,
+        "tooltip-format": "{volume}%"
+    },
+    "bluetooth": {
+        "format": "",
+        "format-connected": "󰂱",
+        "format-disabled": "󰂲",
+        "format-off": "󰂲",
+        "format-on": "",
+        "on-click": "blueberry",
+        "on-click-right": "rfkill toggle bluetooth",
+        "tooltip-format": "{controller_alias}\t{controller_address}\n\n{num_connections} connected",
+        "tooltip-format-connected": "{controller_alias}\t{controller_address}\n\n{num_connections} connected\n\n{device_enumerate}",
+        "tooltip-format-enumerate-connected": "{device_alias}\t{device_address}",
+        "tooltip-format-enumerate-connected-battery": "{device_alias}\t{device_address}\t󰥉{device_battery_percentage}%"
+    },
+    "backlight": {
+        // "device": "acpi_video1",
+        // "format": "{percent}% {icon}",
+        "format": "{icon}",
+        "format-icons": ["", "", "", "", "", "", "", "", ""],
+        "tooltip": true,
+        "tooltip-format": "{percent}%"
+    },
+    "battery": {
+        "states": {
+            "warning": 30,
+            "critical": 15
+        },
+        "format": "{capacity}% <span size='13000' foreground='#a6e3a1'>{icon}</span> ",
+        "format-warning": "{capacity}% <span size='13000' foreground='#B1E3AD'>{icon}</span>",
+        "format-critical": "{capacity}% <span size='13000' foreground='#E38C8F'>{icon}</span>",
+        "format-charging": "{capacity}% <span size='13000' foreground='#B1E3AD'></span>",
+        "format-plugged": "{capacity}% <span size='13000' foreground='#B1E3AD'></span>{",
+        "format-full": "<{capacity}% span size='13000' foreground='#B1E3AD'></span>",
+        "format-icons": ["", "", "", "", ""],
+        "tooltip-format": "{time}"
+    },
+    "tray": {
+        "icon-size": 20,
+    },
+    "clock": {
+        // "timezone": "America/New_York",
+        "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
+        "format-alt": "{:%Y-%m-%d}",
+        "calendar": {
+            "format": {
+                "days": "<span weight='normal'>{}</span>",
+                "months": "<span color='#cdd6f4'><b>{}</b></span>",
+                "today": "<span color='#f38ba8' weight='700'><u>{}</u></span>",
+                "weekdays": "<span color='#f9e2af'><b>{}</b></span>",
+                "weeks": "<span color='#a6e3a1'><b>W{}</b></span>"
+            },
+            "mode": "month",
+            "mode-mon-col": 1,
+            "on-scroll": 1,
+            "weeks-pos": "right"
+        },
+         "interval": 60
+    },
+    "custom/power": {
+        "format" : "⏻",
+        "tooltip": false,
+        "on-click": "wlogout"
+    },
+}
