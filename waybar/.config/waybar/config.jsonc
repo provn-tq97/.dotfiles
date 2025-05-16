@@ -1,4 +1,5 @@
 {
+    "height": 36,
     "layer": "top", // Waybar at top layer
     "position": "top", // Waybar position (top|bottom|left|right)
     "modules-left": ["custom/distrologo", "hyprland/workspaces", "group/traygroup"],
