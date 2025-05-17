@@ -40,15 +40,12 @@
 #sys-info,
 #traygroup,
 #workspaces {
-    background-color: @mantle;
+    background-color: #23232D; /* matle oder sowas*/
     /* border: red solid 1px; */
     margin: 2px 1px;
     border-radius: 4px;
 }
 
-#battery {
-    margin: 100px;
-}
 /* workspaces */
 #workspaces > button { 
     padding: 0px 4px; 
