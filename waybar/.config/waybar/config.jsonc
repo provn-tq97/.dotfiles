@@ -128,6 +128,7 @@
         "tooltip-format": "{percent}%"
     },
     "hyprland/window": {
+        "max-length": 80,
         "format": "{}"
     },
     "battery": {
@@ -163,6 +164,9 @@
             "mode-mon-col": 1,
             "on-scroll": 1,
             "weeks-pos": "right"
+        },
+        "actions": {
+            "on-click-right": "mode",
         },
         "interval": 60
     },
