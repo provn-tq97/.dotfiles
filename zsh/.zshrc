@@ -49,3 +49,4 @@ export NVM_DIR="$HOME/.nvm"
 
 # Created by `pipx` on 2025-05-03 14:43:42
 export PATH="$PATH:/home/nobody-wav/.local/bin"
+export PATH="$PATH:/home/nobody-wav/.local/scripts"
