@@ -15,6 +15,7 @@ install_yay_pkg() {
 
 echo "### Update System ###"
 pacman -Syu --noconfirm
+install_pacman_pkg "intel-ucode"
 
 echo "### yay ###"
 install_pacman_pkg "git"
