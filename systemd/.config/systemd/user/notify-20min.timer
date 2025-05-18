@@ -1,0 +1,11 @@
+[Unit]
+Description=Timer für Benachrichtigung alle 20 Minuten
+
+[Timer]
+OnBootSec=5min
+OnUnitActiveSec=20min
+Persistent=true
+
+[Install]
+WantedBy=default.target
+

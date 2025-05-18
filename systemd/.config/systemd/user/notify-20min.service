@@ -1,0 +1,7 @@
+[Unit]
+Description=Sendet alle 20 Minuten eine Benachrichtigung (Wayland)
+
+[Service]
+Type=oneshot
+ExecStart=/home/nobody-wav/.config/hypr/20-20-20.sh
+
