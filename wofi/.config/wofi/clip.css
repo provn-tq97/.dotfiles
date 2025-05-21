@@ -53,7 +53,7 @@
 
 * {
   font-family: 'FiraCode Nerd Font', monospace;
-  font-size: 14px;
+  font-size: 12px;
 }
 
 /* Window */
@@ -162,3 +162,4 @@ window {
 #entry:drop(active) {
   background-color: @lavender!important;
 }
+

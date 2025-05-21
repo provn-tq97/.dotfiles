@@ -18,13 +18,13 @@ pacman -Syu --noconfirm
 install_pacman_pkg "intel-ucode"
 
 echo "### yay ###"
-install_pacman_pkg "git"
-install_pacman_pkg "base-devel"
-git clone https://aur.archlinux.org/yay.git
-cd yay
-makepkg -si
-cd -
-rm -rf yay
+# install_pacman_pkg "git"
+# install_pacman_pkg "base-devel"
+# git clone https://aur.archlinux.org/yay.git
+# cd yay
+# makepkg -si
+# cd .. 
+# rm -rf yay
 
 echo "### xorg-xrdb ###"
 install_pacman_pkg "xorg-xrdb"
