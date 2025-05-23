@@ -92,6 +92,8 @@
         "sort-by-name": true,
         "format": " {icon} ",
         "format-icons": {
+            "1": "<span size='10000'></span>",
+            "2": "<span size='10000'>󰇩</span>",
             "default": "<span size='9000'></span>",
         },
     },
