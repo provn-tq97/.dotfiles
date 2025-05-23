@@ -19,3 +19,9 @@
 [submodule "tmux/.config/tmux/plugins/tpm"]
 	path = tmux/.config/tmux/plugins/tpm
 	url = https://github.com/tmux-plugins/tpm
+[submodule "tmux/.config/tmux/plugins/tmux-session-wizard"]
+	path = tmux/.config/tmux/plugins/tmux-session-wizard
+	url = https://github.com/27medkamal/tmux-session-wizard.git
+[submodule "tmux/.config/tmux/plugins/tmux-sessionx"]
+	path = tmux/.config/tmux/plugins/tmux-sessionx
+	url = https://github.com/omerxx/tmux-sessionx.git
