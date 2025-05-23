@@ -16,3 +16,6 @@
 [submodule "tmux/.config/tmux/plugins/tmux-yank"]
 	path = tmux/.config/tmux/plugins/tmux-yank
 	url = https://github.com/tmux-plugins/tmux-yank
+[submodule "tmux/.config/tmux/plugins/tpm"]
+	path = tmux/.config/tmux/plugins/tpm
+	url = https://github.com/tmux-plugins/tpm
