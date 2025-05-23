@@ -53,10 +53,10 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
 # SSH Agent automatisch starten
-if ! pgrep -u "$USER" ssh-agent > /dev/null; then
-  eval "$(ssh-agent -s)"
-fi
-
-# SSH-Key hinzufügen (mit Passphrase gefragt, falls nötig)
-ssh-add ~/.ssh/id_ed25519 2>/dev/null
+# if ! pgrep -u "$USER" ssh-agent > /dev/null; then
+#   eval "$(ssh-agent -s)"
+# fi
+#
+# # SSH-Key hinzufügen (mit Passphrase gefragt, falls nötig)
+# ssh-add ~/.ssh/id_ed25519 2>/dev/null
 
