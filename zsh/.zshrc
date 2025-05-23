@@ -1,6 +1,7 @@
 # Created by `pipx` on 2025-05-03 14:43:42
 export PATH="$PATH:/home/nobody-wav/.local/bin"
 export PATH="$PATH:/home/nobody-wav/.local/scripts"
+export SSH_ASKPASS="/usr/lib/ssh/x11-ssh-askpass"
 
 ZINIT_HOME="${XDG_DATA_HOME:-${HOME}/.local/share}/zinit/zinit.git"
 [ ! -d $ZINIT_HOME ] && mkdir -p "$(dirname $ZINIT_HOME)"
@@ -50,4 +51,12 @@ eval "$(zoxide init --cmd cd zsh)"
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+# SSH Agent automatisch starten
+if ! pgrep -u "$USER" ssh-agent > /dev/null; then
+  eval "$(ssh-agent -s)"
+fi
+
+# SSH-Key hinzufügen (mit Passphrase gefragt, falls nötig)
+ssh-add ~/.ssh/id_ed25519 2>/dev/null
 
