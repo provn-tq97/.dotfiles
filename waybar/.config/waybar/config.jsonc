@@ -105,6 +105,7 @@
             // "speaker": "test",
             "default": ["", "", ""]
         },
+        "reverse-scrolling": true,
         "on-click": "pavucontrol",
         "on-click-right": "pactl set-sink-mute 0 toggle",
         "tooltip": true,
@@ -128,12 +129,14 @@
         // "format": "{percent}% {icon}",
         "format": "{icon}",
         "format-icons": ["", "", "", "", "", "", "", "", ""],
+        "reverse-scrolling": true,
         "tooltip": true,
         "tooltip-format": "{percent}%"
     },
     "hyprland/window": {
         "max-length": 80,
-        "format": "{}"
+        "format": "{title}",
+        "separate-outputs": true
     },
     "battery": {
         "states": {
@@ -180,6 +183,7 @@
         "on-click": "wlogout"
     },
     "network": {
+        "on-click": "~/.config/wofi/scripts/wifi_menu.sh",
         "format": "󰖩",
         // "tooltip": "{ifname}",
         "tooltip-format": "{essid}",

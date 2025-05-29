@@ -2,7 +2,7 @@
 @import "colors.css";
 
 * {
-    font-family: FiraCode Nerd Font;
+    font-family: FiraCode Nerd Font, FontAwesome;
     font-size: 13px;
     min-height: 0;
     padding: 1.5px 1.5px;

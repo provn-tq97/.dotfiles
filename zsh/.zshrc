@@ -2,6 +2,9 @@
 export PATH="$PATH:/home/nobody-wav/.local/bin"
 export PATH="$PATH:/home/nobody-wav/.local/scripts"
 export SSH_ASKPASS="/usr/lib/ssh/x11-ssh-askpass"
+export LIBVA_DRIVER_NAME=iHD
+export VDPAU_DRIVER="va_gl"
+export ANV_VIDEO_DECODE=1
 
 ZINIT_HOME="${XDG_DATA_HOME:-${HOME}/.local/share}/zinit/zinit.git"
 [ ! -d $ZINIT_HOME ] && mkdir -p "$(dirname $ZINIT_HOME)"
@@ -44,6 +47,7 @@ zstyle ':fzf-tab:complete:__zoxide_z:*' fzf-preview 'ls --color $realpath'
 alias ls='ls --color'
 alias vim='nvim'
 alias cls='clear'
+alias activate-linux="activate-linux -x 500 -y 100"
 
 eval "$(fzf --zsh)"
 eval "$(zoxide init --cmd cd zsh)"
