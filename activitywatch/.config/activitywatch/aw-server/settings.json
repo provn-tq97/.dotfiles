@@ -1,0 +1,2305 @@
+{
+    "initialTimestamp": "2025-05-24T18:37:51.612Z",
+    "startOfDay": "04:00",
+    "startOfWeek": "Monday",
+    "durationDefault": 3600,
+    "landingpage": "/home",
+    "theme": "light",
+    "newReleaseCheckData": {
+        "isEnabled": true,
+        "nextCheckTime": "2025-05-25T18:37:51.612Z",
+        "howOftenToCheck": 86400,
+        "timesChecked": 0
+    },
+    "userSatisfactionPollData": {
+        "isEnabled": true,
+        "nextPollTime": "2025-05-31T18:37:51.612Z",
+        "timesPollIsShown": 0
+    },
+    "classes": [
+        {
+            "data": {
+                "color": "#0F0",
+                "score": 10
+            },
+            "id": 0,
+            "name": [
+                "Productivity"
+            ],
+            "rule": {
+                "ignore_case": true,
+                "regex": "Google Docs|libreoffice|ReText",
+                "type": "regex"
+            }
+        },
+        {
+            "data": {},
+            "id": 1,
+            "name": [
+                "Productivity",
+                "Programming"
+            ],
+            "rule": {
+                "ignore_case": true,
+                "regex": "Stack Overflow|BitBucket|Spyder|kate|Ghidra|Scite",
+                "type": "regex"
+            }
+        },
+        {
+            "data": {},
+            "id": 2,
+            "name": [
+                "Productivity",
+                "Programming",
+                "ActivityWatch"
+            ],
+            "rule": {
+                "ignore_case": true,
+                "regex": "ActivityWatch|aw-",
+                "type": "regex"
+            }
+        },
+        {
+            "id": 3,
+            "name": [
+                "Productivity",
+                "Image"
+            ],
+            "rule": {
+                "regex": "GIMP|Inkscape",
+                "type": "regex",
+                "ignore_case": true
+            },
+            "data": {}
+        },
+        {
+            "id": 4,
+            "name": [
+                "Productivity",
+                "Video"
+            ],
+            "rule": {
+                "regex": "Kdenlive",
+                "type": "regex",
+                "ignore_case": true
+            },
+            "data": {}
+        },
+        {
+            "id": 5,
+            "name": [
+                "Productivity",
+                "Audio"
+            ],
+            "rule": {
+                "regex": "Audacity",
+                "type": "regex",
+                "ignore_case": true
+            },
+            "data": {}
+        },
+        {
+            "id": 6,
+            "name": [
+                "Productivity",
+                "3D"
+            ],
+            "rule": {
+                "regex": "Blender",
+                "type": "regex",
+                "ignore_case": true
+            },
+            "data": {}
+        },
+        {
+            "data": {
+                "color": "#F33",
+                "score": "-5"
+            },
+            "id": 7,
+            "name": [
+                "Media"
+            ],
+            "rule": {
+                "type": "none"
+            }
+        },
+        {
+            "data": {},
+            "id": 8,
+            "name": [
+                "General",
+                "Time sinks",
+                "Games"
+            ],
+            "rule": {
+                "regex": "Minecraft|RimWorld|deadshot",
+                "type": "regex",
+                "ignore_case": true
+            }
+        },
+        {
+            "data": {},
+            "id": 9,
+            "name": [
+                "General",
+                "Time sinks",
+                "Video"
+            ],
+            "rule": {
+                "regex": "YouTube|Plex|VLC",
+                "type": "regex",
+                "ignore_case": true
+            }
+        },
+        {
+            "data": {
+                "color": "#A8FC00"
+            },
+            "id": 10,
+            "name": [
+                "Media",
+                "Music"
+            ],
+            "rule": {
+                "ignore_case": true,
+                "regex": "Spotify|Deezer|YouTube Music|last\\.fm|soundcloud",
+                "type": "regex"
+            }
+        },
+        {
+            "data": {
+                "color": "#9FF"
+            },
+            "id": 11,
+            "name": [
+                "Comms"
+            ],
+            "rule": {
+                "type": "none"
+            }
+        },
+        {
+            "data": {},
+            "id": 12,
+            "name": [
+                "Comms",
+                "IM"
+            ],
+            "rule": {
+                "regex": "Messenger|Telegram|Signal|WhatsApp|Rambox|Slack|Riot|Element|Nheko|NeoChat|Mattermost|microsoft teams|teams\\.microsoft",
+                "type": "regex",
+                "ignore_case": true
+            }
+        },
+        {
+            "id": 13,
+            "name": [
+                "Comms",
+                "Email"
+            ],
+            "rule": {
+                "regex": "Gmail|Thunderbird|mutt|alpine",
+                "type": "regex",
+                "ignore_case": true
+            },
+            "data": {}
+        },
+        {
+            "data": {
+                "color": "#CCC"
+            },
+            "id": 14,
+            "name": [
+                "Uncategorized"
+            ],
+            "rule": {
+                "type": "none"
+            }
+        },
+        {
+            "data": {},
+            "id": 15,
+            "name": [
+                "Productivity",
+                "Schule",
+                "Anki"
+            ],
+            "rule": {
+                "regex": "Anki",
+                "type": "regex",
+                "ignore_case": true
+            }
+        },
+        {
+            "data": {
+                "color": "#73D8FF"
+            },
+            "id": 16,
+            "name": [
+                "Productivity",
+                "Schule"
+            ],
+            "rule": {
+                "regex": "webuntis|microsoft teams|teams\\.microsoft",
+                "type": "regex",
+                "ignore_case": true
+            }
+        },
+        {
+            "data": {},
+            "id": 17,
+            "name": [
+                "Productivity",
+                "Programming",
+                "Espanso"
+            ],
+            "rule": {
+                "ignore_case": true,
+                "regex": "Espanso",
+                "type": "regex"
+            }
+        },
+        {
+            "data": {
+                "color": "#DBDF00"
+            },
+            "id": 18,
+            "name": [
+                "General"
+            ],
+            "rule": {
+                "type": "none"
+            }
+        },
+        {
+            "data": {},
+            "id": 19,
+            "name": [
+                "Productivity",
+                "Programming",
+                "Git"
+            ],
+            "rule": {
+                "ignore_case": true,
+                "regex": "GitHub|GitLab|Pull Request",
+                "type": "regex"
+            }
+        },
+        {
+            "data": {},
+            "id": 20,
+            "name": [
+                "Productivity",
+                "Programming",
+                "Terminal"
+            ],
+            "rule": {
+                "regex": "kitty|zsh",
+                "type": "regex",
+                "ignore_case": true
+            }
+        },
+        {
+            "data": {
+                "color": "#FCC400"
+            },
+            "id": 21,
+            "name": [
+                "General",
+                "System"
+            ],
+            "rule": {
+                "regex": "gnome",
+                "type": "regex",
+                "ignore_case": true
+            }
+        },
+        {
+            "data": {},
+            "id": 22,
+            "name": [
+                "General",
+                "System",
+                "Password Manager"
+            ],
+            "rule": {
+                "regex": "bitwarden",
+                "type": "regex",
+                "ignore_case": true
+            }
+        },
+        {
+            "data": {},
+            "id": 23,
+            "name": [
+                "Productivity",
+                "Programming",
+                "Editor"
+            ],
+            "rule": {
+                "regex": "nvim|vim",
+                "type": "regex",
+                "ignore_case": true
+            }
+        },
+        {
+            "data": {},
+            "id": 24,
+            "name": [
+                "General",
+                "System",
+                "File Management"
+            ],
+            "rule": {
+                "regex": "org\\.gnome\\.Nautilus|explorer.exe|ranger|Caja|Files|Nemo|PCManFM|Thunar|Downloads",
+                "type": "regex",
+                "ignore_case": true
+            }
+        },
+        {
+            "data": {
+                "color": "#B0BC00"
+            },
+            "id": 25,
+            "name": [
+                "General",
+                "Browsing"
+            ],
+            "rule": {
+                "regex": "edge",
+                "type": "regex",
+                "ignore_case": true
+            }
+        },
+        {
+            "data": {},
+            "id": 26,
+            "name": [
+                "General",
+                "Browsing",
+                "Encyclopedia"
+            ],
+            "rule": {
+                "regex": "Wikipedia|manual",
+                "type": "regex",
+                "ignore_case": true
+            }
+        },
+        {
+            "data": {},
+            "id": 27,
+            "name": [
+                "General",
+                "Browsing",
+                "Stack Exchange"
+            ],
+            "rule": {
+                "regex": "((math\\.)?stack\\s?(exchange|overflow)|super\\s?user|server\\s?fault|ask\\s?ubuntu)(\\.com)?",
+                "type": "regex",
+                "ignore_case": true
+            }
+        },
+        {
+            "data": {},
+            "id": 28,
+            "name": [
+                "General",
+                "Browsing",
+                "Large Language Models"
+            ],
+            "rule": {
+                "regex": "ChatGPT",
+                "type": "regex",
+                "ignore_case": true
+            }
+        },
+        {
+            "data": {},
+            "id": 29,
+            "name": [
+                "General",
+                "Browsing",
+                "Translation"
+            ],
+            "rule": {
+                "regex": " Google Translate|Google \u00dcbersetzer|Deepl",
+                "type": "regex",
+                "ignore_case": true
+            }
+        },
+        {
+            "data": {
+                "color": "#9F0500",
+                "score": "-10"
+            },
+            "id": 30,
+            "name": [
+                "General",
+                "Time sinks"
+            ],
+            "rule": {
+                "type": "none"
+            }
+        },
+        {
+            "data": {},
+            "id": 31,
+            "name": [
+                "General",
+                "Time sinks",
+                "Social Media"
+            ],
+            "rule": {
+                "regex": "Discord|snapchat|twitter|facebook|instagram|reddit|\\sr\\/[a-zA-Z0-9]+|mastodon|bae(\\.)?st|x\\.com",
+                "type": "regex",
+                "ignore_case": true
+            }
+        }
+    ],
+    "views": [
+        {
+            "id": "summary",
+            "name": "Summary",
+            "elements": [
+                {
+                    "type": "top_apps",
+                    "size": 3
+                },
+                {
+                    "type": "top_titles",
+                    "size": 3
+                },
+                {
+                    "type": "timeline_barchart",
+                    "size": 3
+                },
+                {
+                    "type": "top_categories",
+                    "size": 3
+                },
+                {
+                    "type": "category_tree",
+                    "size": 3
+                },
+                {
+                    "type": "category_sunburst",
+                    "size": 3
+                }
+            ]
+        },
+        {
+            "id": "window",
+            "name": "Window",
+            "elements": [
+                {
+                    "type": "top_apps",
+                    "size": 3
+                },
+                {
+                    "type": "top_titles",
+                    "size": 3
+                }
+            ]
+        },
+        {
+            "id": "browser",
+            "name": "Browser",
+            "elements": [
+                {
+                    "type": "top_domains",
+                    "size": 3
+                },
+                {
+                    "type": "top_urls",
+                    "size": 3
+                }
+            ]
+        },
+        {
+            "id": "editor",
+            "name": "Editor",
+            "elements": [
+                {
+                    "type": "top_editor_files",
+                    "size": 3
+                },
+                {
+                    "type": "top_editor_projects",
+                    "size": 3
+                },
+                {
+                    "type": "top_editor_languages",
+                    "size": 3
+                }
+            ]
+        },
+        {
+            "id": "score",
+            "name": "Score",
+            "elements": [
+                {
+                    "type": "category_tree",
+                    "props": {}
+                },
+                {
+                    "type": "score",
+                    "props": {}
+                }
+            ]
+        }
+    ],
+    "requestTimeout": 30,
+    "useColorFallback": true,
+    "categories": [
+        {
+            "data": {},
+            "depth": 2,
+            "id": 0,
+            "name": [
+                "AURA",
+                "Programming",
+                "RAN"
+            ],
+            "name_pretty": "AURA>Programming>RAN",
+            "parent": [
+                "AURA",
+                "Programming"
+            ],
+            "rule": {
+                "ignore_case": true,
+                "regex": "[^a-zA-Z0-9]RAN[^a-zA-Z0-9]|sctp",
+                "type": "regex"
+            },
+            "subname": "RAN"
+        },
+        {
+            "data": {
+                "color": "#0C797D"
+            },
+            "depth": 1,
+            "id": 1,
+            "name": [
+                "Self-management",
+                "ActivityWatch"
+            ],
+            "name_pretty": "Self-management>ActivityWatch",
+            "parent": [
+                "Self-management"
+            ],
+            "rule": {
+                "ignore_case": true,
+                "regex": "ActivityWatch|aw-|localhost:5600",
+                "type": "regex"
+            },
+            "subname": "ActivityWatch"
+        },
+        {
+            "data": {},
+            "depth": 2,
+            "id": 2,
+            "name": [
+                "Productivity",
+                "Multimedia",
+                "Video editing"
+            ],
+            "name_pretty": "Productivity>Multimedia>Video editing",
+            "parent": [
+                "Productivity",
+                "Multimedia"
+            ],
+            "rule": {
+                "regex": "Kdenlive",
+                "type": "regex"
+            },
+            "subname": "Video editing"
+        },
+        {
+            "data": {},
+            "depth": 2,
+            "id": 3,
+            "name": [
+                "Productivity",
+                "Graphics",
+                "3D Modeling"
+            ],
+            "name_pretty": "Productivity>Graphics>3D Modeling",
+            "parent": [
+                "Productivity",
+                "Graphics"
+            ],
+            "rule": {
+                "ignore_case": true,
+                "regex": "Blender|freecad|autocad",
+                "type": "regex"
+            },
+            "subname": "3D Modeling"
+        },
+        {
+            "data": {},
+            "depth": 2,
+            "id": 4,
+            "name": [
+                "Productivity",
+                "Multimedia",
+                "Audio"
+            ],
+            "name_pretty": "Productivity>Multimedia>Audio",
+            "parent": [
+                "Productivity",
+                "Multimedia"
+            ],
+            "rule": {
+                "regex": "Audacity",
+                "type": "regex"
+            },
+            "subname": "Audio"
+        },
+        {
+            "data": {},
+            "depth": 1,
+            "id": 5,
+            "name": [
+                "Media",
+                "Games"
+            ],
+            "name_pretty": "Media>Games",
+            "parent": [
+                "Media"
+            ],
+            "rule": {
+                "ignore_case": true,
+                "regex": "Minecraft|RimWorld|Factorio|Steam|MultiMC|geoguessr|cs(?:: ?)?go",
+                "type": "regex"
+            },
+            "subname": "Games"
+        },
+        {
+            "data": {},
+            "depth": 1,
+            "id": 6,
+            "name": [
+                "Media",
+                "Cinema"
+            ],
+            "name_pretty": "Media>Cinema",
+            "parent": [
+                "Media"
+            ],
+            "rule": {
+                "ignore_case": true,
+                "regex": "Plex|VLC|Jellyfin|\\.mov",
+                "type": "regex"
+            },
+            "subname": "Cinema"
+        },
+        {
+            "data": {},
+            "depth": 1,
+            "id": 7,
+            "name": [
+                "Media",
+                "Music"
+            ],
+            "name_pretty": "Media>Music",
+            "parent": [
+                "Media"
+            ],
+            "rule": {
+                "ignore_case": true,
+                "regex": "Spotify|Deezer|YouTube Music|last\\.fm|soundcloud",
+                "type": "regex"
+            },
+            "subname": "Music"
+        },
+        {
+            "data": {
+                "color": "#9FF",
+                "score": "3"
+            },
+            "depth": 0,
+            "id": 8,
+            "name": [
+                "Communication"
+            ],
+            "name_pretty": "Communication",
+            "parent": null,
+            "rule": {
+                "type": "none"
+            },
+            "subname": "Communication"
+        },
+        {
+            "data": {},
+            "depth": 1,
+            "id": 9,
+            "name": [
+                "Communication",
+                "IM"
+            ],
+            "name_pretty": "Communication>IM",
+            "parent": [
+                "Communication"
+            ],
+            "rule": {
+                "ignore_case": false,
+                "regex": "Messenger|Telegram|Signal|WhatsApp|Rambox|Riot|Discord|Nheko|Wire",
+                "type": "regex"
+            },
+            "subname": "IM"
+        },
+        {
+            "data": {},
+            "depth": 1,
+            "id": 10,
+            "name": [
+                "Communication",
+                "Email"
+            ],
+            "name_pretty": "Communication>Email",
+            "parent": [
+                "Communication"
+            ],
+            "rule": {
+                "ignore_case": true,
+                "regex": "Gmail|Thunderbird|mutt|protonmail",
+                "type": "regex"
+            },
+            "subname": "Email"
+        },
+        {
+            "data": {
+                "color": "#333333"
+            },
+            "depth": 0,
+            "id": 11,
+            "name": [
+                "Uncategorized"
+            ],
+            "name_pretty": "Uncategorized",
+            "parent": null,
+            "rule": {
+                "type": "none"
+            },
+            "subname": "Uncategorized"
+        },
+        {
+            "data": {
+                "color": "#C45100",
+                "score": "-5"
+            },
+            "depth": 0,
+            "id": 12,
+            "name": [
+                "Media"
+            ],
+            "name_pretty": "Media",
+            "parent": null,
+            "rule": {
+                "type": "none"
+            },
+            "subname": "Media"
+        },
+        {
+            "data": {
+                "color": "#68CCCA",
+                "score": "5"
+            },
+            "depth": 0,
+            "id": 13,
+            "name": [
+                "Self-management"
+            ],
+            "name_pretty": "Self-management",
+            "parent": null,
+            "rule": {
+                "type": "none"
+            },
+            "subname": "Self-management"
+        },
+        {
+            "data": {
+                "color": "#0062B1",
+                "score": "7"
+            },
+            "depth": 0,
+            "id": 14,
+            "name": [
+                "Productivity"
+            ],
+            "name_pretty": "Productivity",
+            "parent": null,
+            "rule": {
+                "type": "none"
+            },
+            "subname": "Productivity"
+        },
+        {
+            "data": {
+                "score": "-2"
+            },
+            "depth": 1,
+            "id": 15,
+            "name": [
+                "General",
+                "News"
+            ],
+            "name_pretty": "General>News",
+            "parent": [
+                "General"
+            ],
+            "rule": {
+                "ignore_case": true,
+                "regex": "NRK|VG|CNN|BBC|NBC|e24|Reuters",
+                "type": "regex"
+            },
+            "subname": "News"
+        },
+        {
+            "data": {},
+            "depth": 1,
+            "id": 16,
+            "name": [
+                "Productivity",
+                "Git"
+            ],
+            "name_pretty": "Productivity>Git",
+            "parent": [
+                "Productivity"
+            ],
+            "rule": {
+                "ignore_case": true,
+                "regex": "GitHub|GitLab|Pull Request",
+                "type": "regex"
+            },
+            "subname": "Git"
+        },
+        {
+            "data": {},
+            "depth": 2,
+            "id": 17,
+            "name": [
+                "Productivity",
+                "Graphics",
+                "2D Graphics"
+            ],
+            "name_pretty": "Productivity>Graphics>2D Graphics",
+            "parent": [
+                "Productivity",
+                "Graphics"
+            ],
+            "rule": {
+                "ignore_case": true,
+                "regex": "krita|gimp|inkscape|photoshop",
+                "type": "regex"
+            },
+            "subname": "2D Graphics"
+        },
+        {
+            "data": {
+                "color": "#DBDF00"
+            },
+            "depth": 0,
+            "id": 18,
+            "name": [
+                "General"
+            ],
+            "name_pretty": "General",
+            "parent": null,
+            "rule": {
+                "regex": "Brave|Chrome|Chromium|Firefox|org\\.mozilla\\.firefox",
+                "type": "regex"
+            },
+            "subname": "General"
+        },
+        {
+            "data": {
+                "color": "#FCC400"
+            },
+            "depth": 1,
+            "id": 19,
+            "name": [
+                "General",
+                "System"
+            ],
+            "name_pretty": "General>System",
+            "parent": [
+                "General"
+            ],
+            "rule": {
+                "ignore_case": true,
+                "regex": "lockapp.exe|Windows Default Lock Screen|gnome",
+                "type": "regex"
+            },
+            "subname": "System"
+        },
+        {
+            "data": {},
+            "depth": 1,
+            "id": 20,
+            "name": [
+                "Self-management",
+                "Journaling"
+            ],
+            "name_pretty": "Self-management>Journaling",
+            "parent": [
+                "Self-management"
+            ],
+            "rule": {
+                "ignore_case": true,
+                "regex": "zim|joplin",
+                "type": "regex"
+            },
+            "subname": "Journaling"
+        },
+        {
+            "data": {
+                "color": "#9F0500",
+                "score": "-10"
+            },
+            "depth": 0,
+            "id": 21,
+            "name": [
+                "Time sinks"
+            ],
+            "name_pretty": "Time sinks",
+            "parent": null,
+            "rule": {
+                "type": "none"
+            },
+            "subname": "Time sinks"
+        },
+        {
+            "data": {
+                "score": "-2"
+            },
+            "depth": 1,
+            "id": 22,
+            "name": [
+                "General",
+                "Shopping"
+            ],
+            "name_pretty": "General>Shopping",
+            "parent": [
+                "General"
+            ],
+            "rule": {
+                "ignore_case": true,
+                "regex": "amazon|cdon|power.no|elkj[\u00f8o]p|netonnet|ebay|lensway",
+                "type": "regex"
+            },
+            "subname": "Shopping"
+        },
+        {
+            "data": {},
+            "depth": 1,
+            "id": 23,
+            "name": [
+                "Time sinks",
+                "Social Media"
+            ],
+            "name_pretty": "Time sinks>Social Media",
+            "parent": [
+                "Time sinks"
+            ],
+            "rule": {
+                "ignore_case": true,
+                "regex": "twitter|facebook|instagram|reddit|\\sr\\/[a-zA-Z0-9]+|mastodon|bae(\\.)?st|x\\.com",
+                "type": "regex"
+            },
+            "subname": "Social Media"
+        },
+        {
+            "data": {},
+            "depth": 1,
+            "id": 24,
+            "name": [
+                "Media",
+                "Comics"
+            ],
+            "name_pretty": "Media>Comics",
+            "parent": [
+                "Media"
+            ],
+            "rule": {
+                "ignore_case": true,
+                "regex": "webtoons",
+                "type": "regex"
+            },
+            "subname": "Comics"
+        },
+        {
+            "data": {},
+            "depth": 2,
+            "id": 25,
+            "name": [
+                "General",
+                "System",
+                "Core apps"
+            ],
+            "name_pretty": "General>System>Core apps",
+            "parent": [
+                "General",
+                "System"
+            ],
+            "rule": {
+                "ignore_case": true,
+                "regex": "bitwarden|flameshot|calculator|gnome-control-center|gnome-text-editor",
+                "type": "regex"
+            },
+            "subname": "Core apps"
+        },
+        {
+            "data": {},
+            "depth": 1,
+            "id": 26,
+            "name": [
+                "Communication",
+                "Video chatting"
+            ],
+            "name_pretty": "Communication>Video chatting",
+            "parent": [
+                "Communication"
+            ],
+            "rule": {
+                "ignore_case": true,
+                "regex": "skype|zoom",
+                "type": "regex"
+            },
+            "subname": "Video chatting"
+        },
+        {
+            "data": {
+                "color": "#B0BC00"
+            },
+            "depth": 1,
+            "id": 27,
+            "name": [
+                "General",
+                "Browsing"
+            ],
+            "name_pretty": "General>Browsing",
+            "parent": [
+                "General"
+            ],
+            "rule": {
+                "type": "none"
+            },
+            "subname": "Browsing"
+        },
+        {
+            "data": {},
+            "depth": 2,
+            "id": 28,
+            "name": [
+                "General",
+                "Browsing",
+                "Search"
+            ],
+            "name_pretty": "General>Browsing>Search",
+            "parent": [
+                "General",
+                "Browsing"
+            ],
+            "rule": {
+                "ignore_case": true,
+                "regex": "ecosia|duckduckgo|startpage|brave search|google search",
+                "type": "regex"
+            },
+            "subname": "Search"
+        },
+        {
+            "data": {},
+            "depth": 1,
+            "id": 29,
+            "name": [
+                "Media",
+                "Art"
+            ],
+            "name_pretty": "Media>Art",
+            "parent": [
+                "Media"
+            ],
+            "rule": {
+                "ignore_case": true,
+                "regex": "deviantart",
+                "type": "regex"
+            },
+            "subname": "Art"
+        },
+        {
+            "data": {},
+            "depth": 1,
+            "id": 30,
+            "name": [
+                "Time sinks",
+                "Memes"
+            ],
+            "name_pretty": "Time sinks>Memes",
+            "parent": [
+                "Time sinks"
+            ],
+            "rule": {
+                "ignore_case": true,
+                "regex": "imgur|knowyourmeme",
+                "type": "regex"
+            },
+            "subname": "Memes"
+        },
+        {
+            "data": {},
+            "depth": 1,
+            "id": 31,
+            "name": [
+                "Time sinks",
+                "Videos"
+            ],
+            "name_pretty": "Time sinks>Videos",
+            "parent": [
+                "Time sinks"
+            ],
+            "rule": {
+                "ignore_case": true,
+                "regex": "netflix|youtube|twitch|tiktok",
+                "type": "regex"
+            },
+            "subname": "Videos"
+        },
+        {
+            "data": {
+                "score": "6"
+            },
+            "depth": 2,
+            "id": 32,
+            "name": [
+                "AURA",
+                "Documentation",
+                "Jira"
+            ],
+            "name_pretty": "AURA>Documentation>Jira",
+            "parent": [
+                "AURA",
+                "Documentation"
+            ],
+            "rule": {
+                "ignore_case": true,
+                "regex": "jira",
+                "type": "regex"
+            },
+            "subname": "Jira"
+        },
+        {
+            "data": {
+                "score": "6"
+            },
+            "depth": 1,
+            "id": 33,
+            "name": [
+                "AURA",
+                "Documentation"
+            ],
+            "name_pretty": "AURA>Documentation",
+            "parent": [
+                "AURA"
+            ],
+            "rule": {
+                "ignore_case": false,
+                "regex": "auranetworksystems.atlassian.net|OneDrive",
+                "type": "regex"
+            },
+            "subname": "Documentation"
+        },
+        {
+            "data": {
+                "score": "2"
+            },
+            "depth": 2,
+            "id": 34,
+            "name": [
+                "General",
+                "Browsing",
+                "Encyclopedia"
+            ],
+            "name_pretty": "General>Browsing>Encyclopedia",
+            "parent": [
+                "General",
+                "Browsing"
+            ],
+            "rule": {
+                "ignore_case": true,
+                "regex": "Wikipedia|manual",
+                "type": "regex"
+            },
+            "subname": "Encyclopedia"
+        },
+        {
+            "data": {
+                "score": "2"
+            },
+            "depth": 2,
+            "id": 35,
+            "name": [
+                "General",
+                "Browsing",
+                "Forums"
+            ],
+            "name_pretty": "General>Browsing>Forums",
+            "parent": [
+                "General",
+                "Browsing"
+            ],
+            "rule": {
+                "ignore_case": true,
+                "regex": "forum|Issue #[0-9]+",
+                "type": "regex"
+            },
+            "subname": "Forums"
+        },
+        {
+            "data": {
+                "score": "4"
+            },
+            "depth": 2,
+            "id": 36,
+            "name": [
+                "General",
+                "Browsing",
+                "Stack Exchange"
+            ],
+            "name_pretty": "General>Browsing>Stack Exchange",
+            "parent": [
+                "General",
+                "Browsing"
+            ],
+            "rule": {
+                "ignore_case": true,
+                "regex": "((math\\.)?stack\\s?(exchange|overflow)|super\\s?user|server\\s?fault|ask\\s?ubuntu)(\\.com)?",
+                "type": "regex"
+            },
+            "subname": "Stack Exchange"
+        },
+        {
+            "data": {},
+            "depth": 2,
+            "id": 37,
+            "name": [
+                "AURA",
+                "Communication",
+                "Email"
+            ],
+            "name_pretty": "AURA>Communication>Email",
+            "parent": [
+                "AURA",
+                "Communication"
+            ],
+            "rule": {
+                "ignore_case": true,
+                "regex": "Outlook",
+                "type": "regex"
+            },
+            "subname": "Email"
+        },
+        {
+            "data": {},
+            "depth": 3,
+            "id": 38,
+            "name": [
+                "AURA",
+                "Programming",
+                "RAN",
+                "CU-CP"
+            ],
+            "name_pretty": "AURA>Programming>RAN>CU-CP",
+            "parent": [
+                "AURA",
+                "Programming",
+                "RAN"
+            ],
+            "rule": {
+                "ignore_case": true,
+                "regex": "cu-cp",
+                "type": "regex"
+            },
+            "subname": "CU-CP"
+        },
+        {
+            "data": {},
+            "depth": 2,
+            "id": 39,
+            "name": [
+                "AURA",
+                "Communication",
+                "IM"
+            ],
+            "name_pretty": "AURA>Communication>IM",
+            "parent": [
+                "AURA",
+                "Communication"
+            ],
+            "rule": {
+                "ignore_case": true,
+                "regex": "Slack",
+                "type": "regex"
+            },
+            "subname": "IM"
+        },
+        {
+            "data": {
+                "color": "#68BC00",
+                "score": "10"
+            },
+            "depth": 0,
+            "id": 40,
+            "name": [
+                "AURA"
+            ],
+            "name_pretty": "AURA",
+            "parent": null,
+            "rule": {
+                "type": "none"
+            },
+            "subname": "AURA"
+        },
+        {
+            "data": {},
+            "depth": 2,
+            "id": 41,
+            "name": [
+                "AURA",
+                "Communication",
+                "Meetings"
+            ],
+            "name_pretty": "AURA>Communication>Meetings",
+            "parent": [
+                "AURA",
+                "Communication"
+            ],
+            "rule": {
+                "ignore_case": true,
+                "regex": "huddle|microsoft teams|teams\\.microsoft",
+                "type": "regex"
+            },
+            "subname": "Meetings"
+        },
+        {
+            "data": {
+                "color": "#A4DD00",
+                "score": "4"
+            },
+            "depth": 1,
+            "id": 42,
+            "name": [
+                "AURA",
+                "Communication"
+            ],
+            "name_pretty": "AURA>Communication",
+            "parent": [
+                "AURA"
+            ],
+            "rule": {
+                "type": "none"
+            },
+            "subname": "Communication"
+        },
+        {
+            "data": {
+                "color": "#194D33"
+            },
+            "depth": 1,
+            "id": 43,
+            "name": [
+                "AURA",
+                "Programming"
+            ],
+            "name_pretty": "AURA>Programming",
+            "parent": [
+                "AURA"
+            ],
+            "rule": {
+                "type": "none"
+            },
+            "subname": "Programming"
+        },
+        {
+            "data": {},
+            "depth": 2,
+            "id": 44,
+            "name": [
+                "AURA",
+                "Programming",
+                "Infrastructure"
+            ],
+            "name_pretty": "AURA>Programming>Infrastructure",
+            "parent": [
+                "AURA",
+                "Programming"
+            ],
+            "rule": {
+                "ignore_case": true,
+                "regex": "y(a)?ml",
+                "type": "regex"
+            },
+            "subname": "Infrastructure"
+        },
+        {
+            "data": {},
+            "depth": 2,
+            "id": 45,
+            "name": [
+                "AURA",
+                "Operations / Troubleshooting",
+                "Packet Captures"
+            ],
+            "name_pretty": "AURA>Operations / Troubleshooting>Packet Captures",
+            "parent": [
+                "AURA",
+                "Operations / Troubleshooting"
+            ],
+            "rule": {
+                "ignore_case": true,
+                "regex": "wireshark|tshark",
+                "type": "regex"
+            },
+            "subname": "Packet Captures"
+        },
+        {
+            "data": {},
+            "depth": 1,
+            "id": 46,
+            "name": [
+                "Productivity",
+                "Networking"
+            ],
+            "name_pretty": "Productivity>Networking",
+            "parent": [
+                "Productivity"
+            ],
+            "rule": {
+                "ignore_case": true,
+                "regex": "winbox|Fast\\.com",
+                "type": "regex"
+            },
+            "subname": "Networking"
+        },
+        {
+            "data": {},
+            "depth": 3,
+            "id": 47,
+            "name": [
+                "AURA",
+                "Programming",
+                "RAN",
+                "CU-UP"
+            ],
+            "name_pretty": "AURA>Programming>RAN>CU-UP",
+            "parent": [
+                "AURA",
+                "Programming",
+                "RAN"
+            ],
+            "rule": {
+                "ignore_case": true,
+                "regex": "cu-up",
+                "type": "regex"
+            },
+            "subname": "CU-UP"
+        },
+        {
+            "data": {},
+            "depth": 2,
+            "id": 48,
+            "name": [
+                "AURA",
+                "Programming",
+                "FRRC"
+            ],
+            "name_pretty": "AURA>Programming>FRRC",
+            "parent": [
+                "AURA",
+                "Programming"
+            ],
+            "rule": {
+                "ignore_case": true,
+                "regex": "frrc",
+                "type": "regex"
+            },
+            "subname": "FRRC"
+        },
+        {
+            "data": {},
+            "depth": 1,
+            "id": 49,
+            "name": [
+                "AURA",
+                "MATLAB"
+            ],
+            "name_pretty": "AURA>MATLAB",
+            "parent": [
+                "AURA"
+            ],
+            "rule": {
+                "ignore_case": true,
+                "regex": "matlab",
+                "type": "regex"
+            },
+            "subname": "MATLAB"
+        },
+        {
+            "data": {},
+            "depth": 2,
+            "id": 50,
+            "name": [
+                "AURA",
+                "Documentation",
+                "Confluence"
+            ],
+            "name_pretty": "AURA>Documentation>Confluence",
+            "parent": [
+                "AURA",
+                "Documentation"
+            ],
+            "rule": {
+                "ignore_case": true,
+                "regex": "confluence|auranetworksystems.atlassian.net\\/wiki",
+                "type": "regex"
+            },
+            "subname": "Confluence"
+        },
+        {
+            "data": {},
+            "depth": 2,
+            "id": 51,
+            "name": [
+                "AURA",
+                "Documentation",
+                "Markdown"
+            ],
+            "name_pretty": "AURA>Documentation>Markdown",
+            "parent": [
+                "AURA",
+                "Documentation"
+            ],
+            "rule": {
+                "ignore_case": true,
+                "regex": "(README)?\\.md|markdown",
+                "type": "regex"
+            },
+            "subname": "Markdown"
+        },
+        {
+            "data": {},
+            "depth": 2,
+            "id": 52,
+            "name": [
+                "AURA",
+                "Documentation",
+                "Miro"
+            ],
+            "name_pretty": "AURA>Documentation>Miro",
+            "parent": [
+                "AURA",
+                "Documentation"
+            ],
+            "rule": {
+                "ignore_case": true,
+                "regex": "miro",
+                "type": "regex"
+            },
+            "subname": "Miro"
+        },
+        {
+            "data": {},
+            "depth": 2,
+            "id": 53,
+            "name": [
+                "AURA",
+                "Programming",
+                "Python Test Scripts"
+            ],
+            "name_pretty": "AURA>Programming>Python Test Scripts",
+            "parent": [
+                "AURA",
+                "Programming"
+            ],
+            "rule": {
+                "ignore_case": true,
+                "regex": "python",
+                "type": "regex"
+            },
+            "subname": "Python Test Scripts"
+        },
+        {
+            "data": {},
+            "depth": 2,
+            "id": 54,
+            "name": [
+                "AURA",
+                "Programming",
+                "Death Star"
+            ],
+            "name_pretty": "AURA>Programming>Death Star",
+            "parent": [
+                "AURA",
+                "Programming"
+            ],
+            "rule": {
+                "regex": "integ-fos-testing-library|fos-data-testsuite",
+                "type": "regex"
+            },
+            "subname": "Death Star"
+        },
+        {
+            "data": {
+                "score": "2"
+            },
+            "depth": 1,
+            "id": 55,
+            "name": [
+                "AURA",
+                "Finance"
+            ],
+            "name_pretty": "AURA>Finance",
+            "parent": [
+                "AURA"
+            ],
+            "rule": {
+                "ignore_case": true,
+                "regex": "bill\\.com|bill spend & expense",
+                "type": "regex"
+            },
+            "subname": "Finance"
+        },
+        {
+            "data": {},
+            "depth": 1,
+            "id": 56,
+            "name": [
+                "Productivity",
+                "Terminal"
+            ],
+            "name_pretty": "Productivity>Terminal",
+            "parent": [
+                "Productivity"
+            ],
+            "rule": {
+                "ignore_case": false,
+                "regex": "St|gnome-terminal",
+                "type": "regex"
+            },
+            "subname": "Terminal"
+        },
+        {
+            "data": {},
+            "depth": 2,
+            "id": 57,
+            "name": [
+                "Productivity",
+                "Office",
+                "Spreadsheets"
+            ],
+            "name_pretty": "Productivity>Office>Spreadsheets",
+            "parent": [
+                "Productivity",
+                "Office"
+            ],
+            "rule": {
+                "ignore_case": true,
+                "regex": "Excel|LibreOffice Calc|\\.xls|libreoffice-calc",
+                "type": "regex"
+            },
+            "subname": "Spreadsheets"
+        },
+        {
+            "data": {
+                "score": "6"
+            },
+            "depth": 2,
+            "id": 58,
+            "name": [
+                "General",
+                "Browsing",
+                "Large Language Models"
+            ],
+            "name_pretty": "General>Browsing>Large Language Models",
+            "parent": [
+                "General",
+                "Browsing"
+            ],
+            "rule": {
+                "ignore_case": false,
+                "regex": "ChatGPT",
+                "type": "regex"
+            },
+            "subname": "Large Language Models"
+        },
+        {
+            "data": {},
+            "depth": 2,
+            "id": 59,
+            "name": [
+                "AURA",
+                "Documentation",
+                "Vendor Specifications"
+            ],
+            "name_pretty": "AURA>Documentation>Vendor Specifications",
+            "parent": [
+                "AURA",
+                "Documentation"
+            ],
+            "rule": {
+                "type": "none"
+            },
+            "subname": "Vendor Specifications"
+        },
+        {
+            "data": {},
+            "depth": 3,
+            "id": 60,
+            "name": [
+                "AURA",
+                "Documentation",
+                "Vendor Specifications",
+                "JFW"
+            ],
+            "name_pretty": "AURA>Documentation>Vendor Specifications>JFW",
+            "parent": [
+                "AURA",
+                "Documentation",
+                "Vendor Specifications"
+            ],
+            "rule": {
+                "ignore_case": true,
+                "regex": "jfwindustries.com",
+                "type": "regex"
+            },
+            "subname": "JFW"
+        },
+        {
+            "data": {
+                "color": "#306015",
+                "score": "8"
+            },
+            "depth": 1,
+            "id": 61,
+            "name": [
+                "AURA",
+                "Operations / Troubleshooting"
+            ],
+            "name_pretty": "AURA>Operations / Troubleshooting",
+            "parent": [
+                "AURA"
+            ],
+            "rule": {
+                "type": "none"
+            },
+            "subname": "Operations / Troubleshooting"
+        },
+        {
+            "data": {},
+            "depth": 2,
+            "id": 62,
+            "name": [
+                "AURA",
+                "Operations / Troubleshooting",
+                "Logging"
+            ],
+            "name_pretty": "AURA>Operations / Troubleshooting>Logging",
+            "parent": [
+                "AURA",
+                "Operations / Troubleshooting"
+            ],
+            "rule": {
+                "ignore_case": true,
+                "regex": "aura_read_logs|\\.log|Datadog",
+                "type": "regex"
+            },
+            "subname": "Logging"
+        },
+        {
+            "data": {},
+            "depth": 3,
+            "id": 63,
+            "name": [
+                "AURA",
+                "Programming",
+                "RAN",
+                "ARS"
+            ],
+            "name_pretty": "AURA>Programming>RAN>ARS",
+            "parent": [
+                "AURA",
+                "Programming",
+                "RAN"
+            ],
+            "rule": {
+                "ignore_case": true,
+                "regex": "[^a-zA-Z0-9]ARS[^a-zA-Z0-9]",
+                "type": "regex"
+            },
+            "subname": "ARS"
+        },
+        {
+            "data": {},
+            "depth": 3,
+            "id": 64,
+            "name": [
+                "AURA",
+                "Programming",
+                "RAN",
+                "DU"
+            ],
+            "name_pretty": "AURA>Programming>RAN>DU",
+            "parent": [
+                "AURA",
+                "Programming",
+                "RAN"
+            ],
+            "rule": {
+                "ignore_case": true,
+                "regex": "[^a-zA-Z0-9]DU[^a-zA-Z0-9]",
+                "type": "regex"
+            },
+            "subname": "DU"
+        },
+        {
+            "data": {},
+            "depth": 1,
+            "id": 65,
+            "name": [
+                "Productivity",
+                "Office"
+            ],
+            "name_pretty": "Productivity>Office",
+            "parent": [
+                "Productivity"
+            ],
+            "rule": {
+                "type": "none"
+            },
+            "subname": "Office"
+        },
+        {
+            "data": {},
+            "depth": 1,
+            "id": 66,
+            "name": [
+                "Productivity",
+                "Graphics"
+            ],
+            "name_pretty": "Productivity>Graphics",
+            "parent": [
+                "Productivity"
+            ],
+            "rule": {
+                "type": "none"
+            },
+            "subname": "Graphics"
+        },
+        {
+            "data": {},
+            "depth": 1,
+            "id": 67,
+            "name": [
+                "Productivity",
+                "Multimedia"
+            ],
+            "name_pretty": "Productivity>Multimedia",
+            "parent": [
+                "Productivity"
+            ],
+            "rule": {
+                "type": "none"
+            },
+            "subname": "Multimedia"
+        },
+        {
+            "data": {},
+            "depth": 1,
+            "id": 68,
+            "name": [
+                "Productivity",
+                "Programming"
+            ],
+            "name_pretty": "Productivity>Programming",
+            "parent": [
+                "Productivity"
+            ],
+            "rule": {
+                "type": "none"
+            },
+            "subname": "Programming"
+        },
+        {
+            "data": {},
+            "depth": 2,
+            "id": 69,
+            "name": [
+                "Productivity",
+                "Programming",
+                "Dotfiles"
+            ],
+            "name_pretty": "Productivity>Programming>Dotfiles",
+            "parent": [
+                "Productivity",
+                "Programming"
+            ],
+            "rule": {
+                "ignore_case": false,
+                "regex": "~/src/miscellaneous",
+                "type": "regex"
+            },
+            "subname": "Dotfiles"
+        },
+        {
+            "data": {},
+            "depth": 2,
+            "id": 70,
+            "name": [
+                "General",
+                "System",
+                "Cloud Storage"
+            ],
+            "name_pretty": "General>System>Cloud Storage",
+            "parent": [
+                "General",
+                "System"
+            ],
+            "rule": {
+                "ignore_case": true,
+                "regex": "Nextcloud",
+                "type": "regex"
+            },
+            "subname": "Cloud Storage"
+        },
+        {
+            "data": {},
+            "depth": 3,
+            "id": 71,
+            "name": [
+                "General",
+                "Browsing",
+                "Search",
+                "Maps & Navigation"
+            ],
+            "name_pretty": "General>Browsing>Search>Maps & Navigation",
+            "parent": [
+                "General",
+                "Browsing",
+                "Search"
+            ],
+            "rule": {
+                "regex": "Google Maps",
+                "type": "regex"
+            },
+            "subname": "Maps & Navigation"
+        },
+        {
+            "data": {},
+            "depth": 2,
+            "id": 72,
+            "name": [
+                "General",
+                "System",
+                "VPN"
+            ],
+            "name_pretty": "General>System>VPN",
+            "parent": [
+                "General",
+                "System"
+            ],
+            "rule": {
+                "ignore_case": true,
+                "regex": "NordVPN|OpenVPN",
+                "type": "regex"
+            },
+            "subname": "VPN"
+        },
+        {
+            "data": {},
+            "depth": 3,
+            "id": 73,
+            "name": [
+                "AURA",
+                "Programming",
+                "Infrastructure",
+                "Kubernetes / Helm / Talos"
+            ],
+            "name_pretty": "AURA>Programming>Infrastructure>Kubernetes / Helm / Talos",
+            "parent": [
+                "AURA",
+                "Programming",
+                "Infrastructure"
+            ],
+            "rule": {
+                "ignore_case": true,
+                "regex": "k8s|kubernetes|talos|helm|hc-",
+                "type": "regex"
+            },
+            "subname": "Kubernetes / Helm / Talos"
+        },
+        {
+            "data": {},
+            "depth": 3,
+            "id": 74,
+            "name": [
+                "AURA",
+                "Programming",
+                "Infrastructure",
+                "Ansible"
+            ],
+            "name_pretty": "AURA>Programming>Infrastructure>Ansible",
+            "parent": [
+                "AURA",
+                "Programming",
+                "Infrastructure"
+            ],
+            "rule": {
+                "ignore_case": true,
+                "regex": "ansible",
+                "type": "regex"
+            },
+            "subname": "Ansible"
+        },
+        {
+            "data": {},
+            "depth": 3,
+            "id": 75,
+            "name": [
+                "AURA",
+                "Programming",
+                "Infrastructure",
+                "Docker"
+            ],
+            "name_pretty": "AURA>Programming>Infrastructure>Docker",
+            "parent": [
+                "AURA",
+                "Programming",
+                "Infrastructure"
+            ],
+            "rule": {
+                "ignore_case": true,
+                "regex": "docker(file)?",
+                "type": "regex"
+            },
+            "subname": "Docker"
+        },
+        {
+            "data": {},
+            "depth": 2,
+            "id": 76,
+            "name": [
+                "AURA",
+                "Programming",
+                "Coverage Reports"
+            ],
+            "name_pretty": "AURA>Programming>Coverage Reports",
+            "parent": [
+                "AURA",
+                "Programming"
+            ],
+            "rule": {
+                "ignore_case": true,
+                "regex": "lcov|tarpaulin",
+                "type": "regex"
+            },
+            "subname": "Coverage Reports"
+        },
+        {
+            "data": {},
+            "depth": 2,
+            "id": 77,
+            "name": [
+                "General",
+                "System",
+                "File Management"
+            ],
+            "name_pretty": "General>System>File Management",
+            "parent": [
+                "General",
+                "System"
+            ],
+            "rule": {
+                "regex": "org\\.gnome\\.Nautilus|explorer.exe|ranger|Caja|Files|Nemo|PCManFM|Thunar|Downloads",
+                "type": "regex"
+            },
+            "subname": "File Management"
+        },
+        {
+            "data": {},
+            "depth": 2,
+            "id": 78,
+            "name": [
+                "Productivity",
+                "Office",
+                "Presentations"
+            ],
+            "name_pretty": "Productivity>Office>Presentations",
+            "parent": [
+                "Productivity",
+                "Office"
+            ],
+            "rule": {
+                "ignore_case": true,
+                "regex": "Powerpoint|LibreOffice Impress|\\.pptx|libreoffice-impress",
+                "type": "regex"
+            },
+            "subname": "Presentations"
+        },
+        {
+            "data": {},
+            "depth": 2,
+            "id": 79,
+            "name": [
+                "Productivity",
+                "Office",
+                "Rich Text"
+            ],
+            "name_pretty": "Productivity>Office>Rich Text",
+            "parent": [
+                "Productivity",
+                "Office"
+            ],
+            "rule": {
+                "regex": "Microsoft Word|LibreOffice Writer|\\.docx|libreoffice-writer",
+                "type": "regex"
+            },
+            "subname": "Rich Text"
+        },
+        {
+            "data": {},
+            "depth": 1,
+            "id": 80,
+            "name": [
+                "Self-management",
+                "Health"
+            ],
+            "name_pretty": "Self-management>Health",
+            "parent": [
+                "Self-management"
+            ],
+            "rule": {
+                "regex": "My IU Health",
+                "type": "regex"
+            },
+            "subname": "Health"
+        },
+        {
+            "data": {},
+            "depth": 1,
+            "id": 81,
+            "name": [
+                "Productivity",
+                "PDFs"
+            ],
+            "name_pretty": "Productivity>PDFs",
+            "parent": [
+                "Productivity"
+            ],
+            "rule": {
+                "ignore_case": true,
+                "regex": "zathura|\\.pdf|Evince",
+                "type": "regex"
+            },
+            "subname": "PDFs"
+        },
+        {
+            "data": {},
+            "depth": 1,
+            "id": 82,
+            "name": [
+                "Self-management",
+                "Banking"
+            ],
+            "name_pretty": "Self-management>Banking",
+            "parent": [
+                "Self-management"
+            ],
+            "rule": {
+                "regex": "Discover|Make a Transfer",
+                "type": "regex"
+            },
+            "subname": "Banking"
+        },
+        {
+            "data": {},
+            "depth": 2,
+            "id": 83,
+            "name": [
+                "AURA",
+                "Operations / Troubleshooting",
+                "Visualizations"
+            ],
+            "name_pretty": "AURA>Operations / Troubleshooting>Visualizations",
+            "parent": [
+                "AURA",
+                "Operations / Troubleshooting"
+            ],
+            "rule": {
+                "ignore_case": true,
+                "regex": "Grafana",
+                "type": "regex"
+            },
+            "subname": "Visualizations"
+        },
+        {
+            "data": {},
+            "depth": 2,
+            "id": 84,
+            "name": [
+                "AURA",
+                "Communication",
+                "AHQP"
+            ],
+            "name_pretty": "AURA>Communication>AHQP",
+            "parent": [
+                "AURA",
+                "Communication"
+            ],
+            "rule": {
+                "ignore_case": true,
+                "regex": "[^a-zA-Z0-9]AHQP[^a-zA-Z0-9]",
+                "type": "regex"
+            },
+            "subname": "AHQP"
+        },
+        {
+            "data": {},
+            "depth": 1,
+            "id": 85,
+            "name": [
+                "Self-management",
+                "Calendar"
+            ],
+            "name_pretty": "Self-management>Calendar",
+            "parent": [
+                "Self-management"
+            ],
+            "rule": {
+                "ignore_case": false,
+                "regex": "Proton Calendar",
+                "type": "regex"
+            },
+            "subname": "Calendar"
+        },
+        {
+            "data": {},
+            "depth": 2,
+            "id": 86,
+            "name": [
+                "General",
+                "Browsing",
+                "Translation"
+            ],
+            "name_pretty": "General>Browsing>Translation",
+            "parent": [
+                "General",
+                "Browsing"
+            ],
+            "rule": {
+                "regex": "Google Translate",
+                "type": "regex"
+            },
+            "subname": "Translation"
+        }
+    ]
+}

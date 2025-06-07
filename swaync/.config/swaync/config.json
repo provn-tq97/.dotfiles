@@ -1,5 +1,6 @@
 {
     "$schema": "/etc/xdg/swaync/configSchema.json",
 
-    "timeout": 30
+    "timeout": 30,
+    "timeout-low": 3
 }
