@@ -7,8 +7,8 @@ matches:
   - trigger: ":e"
     replace: "Englisch"
 
-  - trigger: ":espanso"
-    replace: "Hi there!"
+  - trigger: ":i"
+    replace: "Italienisch"
 
   - trigger: ":date"
     replace: "{{mydate}}"

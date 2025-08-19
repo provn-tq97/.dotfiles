@@ -93,10 +93,18 @@
         "format": " {icon} ",
         "format-icons": {
             "1": "<span size='10000'></span>",
-            "2": "<span size='10000'>󰇩</span>",
+            "2": "<span size='10000'>󰇩</span>",            
             "3": "<span size='10000'></span>",
+            "4": "<span size='10000'></span>",
+            "10": "<span size='10000'></span>",
             "default": "<span size='9000'></span>",
+            "special": "S",
         },
+        "rewrite": {
+        "name:(.*)": "$1"
+    },
+        "on-scroll-up": "hyprctl dispatch workspace e-1",
+        "on-scroll-down": "hyprctl dispatch workspace e+1"
     },
     "pulseaudio": {
         // "format": "{volume}% {icon}",
@@ -135,8 +143,29 @@
     },
     "hyprland/window": {
         "max-length": 80,
-        "format": "{title}",
-        "separate-outputs": true
+        // "format": "{title}",
+        "icon": true,
+        "icon-size": 15,
+        "format": "{initialClass}",
+        "seperate-outputs": true,
+        "rewrite": {
+            "": "  Arch",
+            "Mozilla Firefox": "Firefox",
+            "(.*) Thunar": "Thunar",
+            "(.*)obs(.*)": "OBS",
+            "Spotify (.*)": "Spotify",
+            "discord(.*)": "Discord",
+            "Code": "VS Code",
+            "Docker Desktop": " Docker",
+            "kitty": "Kitty",
+            "app.zen_browser.zen": "Zen",
+            "microsoft-edge": "Microsoft Edge",
+            "org.pulseaudio.pavucontrol": "Pavucontrol",
+            "org.gnome.Console": "Console",
+            "org.gnome.Nautilus": "Nautilus",
+            "com.belmoussaoui.Obfuscate": "Obfuscate",
+            "blueberry(.*)": "Bluetooth"
+        },
     },
     "battery": {
         "states": {
