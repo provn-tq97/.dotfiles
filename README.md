@@ -111,7 +111,7 @@ systemctl mask systemd-rfkill.service systemd-rfkill.socket
 
 - setup github credentials store
 
-- setup activitywatcher [docs](https://docs.activitywatch.net/en/latest/getting-started.html)
+- setup activitywatcher with caddy for a custom domain: https://activitywatch.local/ | [docs](https://docs.activitywatch.net/en/latest/getting-started.html)
 ```
 yay -S activitywatch-bin
 ```
