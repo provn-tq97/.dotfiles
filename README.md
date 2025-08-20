@@ -7,6 +7,7 @@
 - BTRFS with default subvolumes
 - pipewire
 - gnome and hyprland (main)
+- fulldisk encryption
 
 # post install
 - clone this repo
@@ -22,7 +23,7 @@ sudo pacman -S --noconfirm intel-ucode xorg-xrdb \
     tlp tlp-rdw tlpui blueman caddy fastfetch grim \
     powertop qt5-wayland qt6-wayland reflector \
     slurp pavucontrol obfuscate zoxide mkcert \
-    caddy
+    caddy discord spotify-launcher
 ```
 - install yay and the packages
 ```
@@ -30,6 +31,31 @@ yay -S --noconfirm activate-linux-git activitywatch-bin anki-bin \
     catppuccin-gtk-theme-mocha espanso-wayland \
     microsoft-edge-stable-bin normcap portmaster-stub-bin \
     wlogout ttf-symbola
+```
+- Here are the thing that is in yay
+```
+ ~ ❯ yay -Qem    
+activate-linux-git r363.746a84e-1
+activitywatch-bin 0.13.2-1
+anki-bin 25.02.6-1
+catppuccin-gtk-theme-mocha 1.0.3-1
+espanso-wayland 2.2.3-1
+gowall 0.2.1-1
+hyprshade 4.0.0-1
+lavat-git 1:r70.8a78d22-1
+libva-intel-driver-irql 2.4.4-1
+matugen-bin 2.4.1-1
+microsoft-edge-stable-bin 137.0.3296.83-1
+normcap 0.5.9-1
+portmaster-stub-bin 1.0.0-1
+tlpui 2:1.8.0-1
+ttf-symbola 14.00-2
+wlogout 1.2.2-0
+wlrctl 0.2.2-2
+wvkbd 0.16-1
+yay 12.5.0-1
+yay-debug 12.5.0-1
+ ~ ❯
 ```
 
 - config fonts
@@ -80,3 +106,26 @@ systemctl start NetworkManager-dispatcher.service
 
 systemctl mask systemd-rfkill.service systemd-rfkill.socket
 ```
+
+- add custom pluggins into edge 
+
+- setup github credentials store
+
+- setup activitywatcher [docs](https://docs.activitywatch.net/en/latest/getting-started.html)
+```
+yay -S activitywatch-bin
+```
+
+- install all the pluggins for hyprland
+
+- enable notify every 20 minutes
+
+- setup anki (login)
+
+- setup reflector
+
+- make a faster boot time (disable some service on boot ask chat-gpt for the thing that can be disable)
+
+- use some of the optimization https://www.reddit.com/r/archlinux/comments/rz6294/arch_linux_laptop_optimization_guide_for/
+
+- you are ready :))
