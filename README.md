@@ -11,7 +11,7 @@
 # post install
 - clone this repo
 - install all needed package
-´´´
+```
 sudo pacman -S --noconfirm intel-ucode xorg-xrdb \
     gnome gdm nautilus hyprland wofi waybar kitty \
     swaync hypridle hyprlock hyprpaper hyprsunset \
@@ -23,17 +23,17 @@ sudo pacman -S --noconfirm intel-ucode xorg-xrdb \
     powertop qt5-wayland qt6-wayland reflector \
     slurp pavucontrol obfuscate zoxide mkcert \
     caddy
-´´´
+```
 - install yay and the packages
-´´´
+```
 yay -S --noconfirm activate-linux-git activitywatch-bin anki-bin \
     catppuccin-gtk-theme-mocha espanso-wayland \
     microsoft-edge-stable-bin normcap portmaster-stub-bin \
     wlogout ttf-symbola
-´´´
+```
 
 - config fonts
-´´´
+```
 # https://github.com/davgar99/arch-linux-font-improvement-guide
 
 sudo pacman -Syu --noconfirm
@@ -55,23 +55,23 @@ echo "sudo vim /etc/profile.d/freetype2.sh"
 echo "Uncomment the following line from the file."
 echo "export FREETYPE_PROPERTIES=\"truetype:interpreter-version=40\""
 echo "and refresh with sudo fc-cache -fv"
-´´´
+```
 - stow all files
-´´´
+```
 stow activitywatch hyprland neofetch tmux-sessionizer zsh \
     backgrounds edge normcap swaync waybar btop \
     espanso kitty nvim systemd wofi cava fontconfig \
     matugen scripts tmux xresources
-´´´
+```
 - setup normcap
-´´´
+```
 sudo pacman -S --noconfirm tesseract-data-eng \
 tesseract-data-ita \
 tesseract-data-deu
-´´´
+```
 
 - setup power plan
-´´´
+```
 systemctl enable tlp.service
 systemctl start tlp.service
 
@@ -79,4 +79,4 @@ systemctl enable NetworkManager-dispatcher.service
 systemctl start NetworkManager-dispatcher.service
 
 systemctl mask systemd-rfkill.service systemd-rfkill.socket
-´´´
+```
