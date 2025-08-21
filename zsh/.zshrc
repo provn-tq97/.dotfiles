@@ -48,6 +48,8 @@ alias ls='ls --color'
 alias vim='nvim'
 alias cls='clear'
 alias activate-linux="activate-linux -x 500 -y 100"
+alias pls="sudo"
+alias please="sudo"
 
 eval "$(fzf --zsh)"
 eval "$(zoxide init --cmd cd zsh)"

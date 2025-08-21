@@ -14,13 +14,13 @@
 - install all needed package
 ```
 sudo pacman -S --noconfirm intel-ucode xorg-xrdb \
-    gnome gdm nautilus hyprland wofi waybar kitty \
+    gnome gdm hyprland wofi waybar kitty \
     swaync hypridle hyprlock hyprpaper hyprsunset \
     natilus hyprpolkitagent hyprcursor cliphist \
     network-manager-applet blueberry bluez-utils \
-    dolphin nwg-look tmux oh-my-posh neovim btop \
+    dolphin nwg-look tmux neovim btop \
     cava zsh fzf git lazygit less mariadb stow \
-    tlp tlp-rdw tlpui blueman caddy fastfetch grim \
+    tlp tlp-rdw blueman caddy fastfetch grim \
     powertop qt5-wayland qt6-wayland reflector \
     slurp pavucontrol obfuscate zoxide mkcert \
     caddy discord spotify-launcher
@@ -52,7 +52,6 @@ tlpui 2:1.8.0-1
 ttf-symbola 14.00-2
 wlogout 1.2.2-0
 wlrctl 0.2.2-2
-wvkbd 0.16-1
 yay 12.5.0-1
 yay-debug 12.5.0-1
  ~ ❯

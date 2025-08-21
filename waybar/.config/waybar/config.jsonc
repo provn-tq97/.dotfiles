@@ -1,13 +1,12 @@
 {
     "height": 36,
-    "layer": "top", // Waybar at top layer
-    "position": "top", // Waybar position (top|bottom|left|right)
+    "layer": "top", 
+    "position": "top",
     "modules-left": ["custom/distrologo", "hyprland/workspaces", "group/traygroup"],
     "modules-center": ["hyprland/window"],
     "modules-right": ["group/sys-info", "battery", "clock", "custom/power"],
     "group/traygroup": {
         "modules": [
-            // irgendwann drawer nach unten?
             "tray"
         ],
         "orientation": "horizontal"
@@ -208,23 +207,11 @@
             "on-scroll": 1,
             "weeks-pos": "right"
         },
-        "on-click": "gsimplecal",
         "actions": {
             "on-click-right": "mode",
         },
         "interval": 60
     },
-    // "custom/weather": {
-    //     "format": "{}",
-    //     // "format-alt": "{alt}: {}",
-    //     // "format-alt-click": "click-right",
-    //     "interval": 3600,
-    //     "exec": "curl -s 'https://wttr.in/Erding?format=%t'",
-    //     // "exec": "weather=$(curl -s 'https://wttr.in/Erding?format=%t'); echo ${weather:-'N/A'}",
-    //     //"return-type": "json",
-    //     //"exec": "~/.config/waybar/modules/weather.sh",
-    //     "exec-if": "ping wttr.in -c1"
-    // },
     "custom/power": {
         "format" : "⏻",
         "tooltip": false,
