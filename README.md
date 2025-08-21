@@ -1,3 +1,6 @@
+pls dont break anything :((
+
+
 # Install my shit
  - set keyboard layout
  - connect to wlan
