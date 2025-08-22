@@ -132,4 +132,4 @@ yay -S activitywatch-bin
 
 - maybe use a different scale 
 
-- you are ready :))
+- you are ready :)) enjoy it
