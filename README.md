@@ -130,4 +130,6 @@ yay -S activitywatch-bin
 
 - use some of the optimization https://www.reddit.com/r/archlinux/comments/rz6294/arch_linux_laptop_optimization_guide_for/
 
+- maybe use a different scale 
+
 - you are ready :))
