@@ -26,7 +26,7 @@ sudo pacman -S --noconfirm intel-ucode xorg-xrdb \
     tlp tlp-rdw blueman caddy fastfetch grim \
     powertop qt5-wayland qt6-wayland reflector \
     slurp pavucontrol obfuscate zoxide mkcert \
-    caddy discord spotify-launcher
+    caddy discord spotify-launcher bat
 ```
 - install yay and the packages
 ```
@@ -89,7 +89,7 @@ echo "and refresh with sudo fc-cache -fv"
 stow activitywatch hyprland neofetch tmux-sessionizer zsh \
     backgrounds edge normcap swaync waybar btop \
     espanso kitty nvim systemd wofi cava fontconfig \
-    matugen scripts tmux xresources
+    matugen scripts tmux xresources chromium bat
 ```
 - setup normcap
 ```
@@ -131,5 +131,7 @@ yay -S activitywatch-bin
 - use some of the optimization https://www.reddit.com/r/archlinux/comments/rz6294/arch_linux_laptop_optimization_guide_for/
 
 - maybe use a different scale 
+
+- install timekpr-next for kinderzeit
 
 - you are ready :)) enjoy it
