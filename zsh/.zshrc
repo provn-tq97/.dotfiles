@@ -52,12 +52,14 @@ zstyle ':fzf-tab:complete:cd:*' fzf-preview 'ls --color $realpath'
 zstyle ':fzf-tab:complete:__zoxide_z:*' fzf-preview 'ls --color $realpath'
 
 alias ls='ls --color'
+alias ls.='ls -d .* --color=auto'
 alias vim='nvim'
 alias cls='clear'
 alias activate-linux="activate-linux -x 500 -y 100"
 alias pls="sudo"
 alias please="sudo"
 alias cat="bat"
+alias ..="cd .."
 
 eval "$(fzf --zsh)"
 eval "$(zoxide init --cmd cd zsh)"
