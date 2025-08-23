@@ -60,6 +60,7 @@ alias pls="sudo"
 alias please="sudo"
 alias cat="bat"
 alias ..="cd .."
+alias coolbg="kitty +kitten panel --edge=background -o font_size=12 mir"
 
 eval "$(fzf --zsh)"
 eval "$(zoxide init --cmd cd zsh)"
