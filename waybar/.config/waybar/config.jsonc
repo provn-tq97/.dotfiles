@@ -150,10 +150,10 @@
     },
     "hyprland/window": {
         "max-length": 80,
-        // "format": "{title}",
+        "format": "{title}",
         "icon": true,
         "icon-size": 15,
-        "format": "{initialClass}",
+        // "format": "{initialClass}",
         "seperate-outputs": true,
         "rewrite": {
             "": "  Arch",
