@@ -1,4 +1,5 @@
 # Created by `pipx` on 2025-05-03 14:43:42
+export PATH="$HOME/.local/bin:$PATH"
 export PATH="$PATH:/home/nobody-wav/.local/bin"
 export PATH="$PATH:/home/nobody-wav/.local/scripts"
 export SSH_ASKPASS="/usr/lib/ssh/x11-ssh-askpass"
@@ -77,3 +78,9 @@ export NVM_DIR="$HOME/.nvm"
 # # SSH-Key hinzufügen (mit Passphrase gefragt, falls nötig)
 # ssh-add ~/.ssh/id_ed25519 2>/dev/null
 
+# pyenv
+export PYENV_ROOT="$HOME/.pyenv"
+export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init --path)"
+eval "$(pyenv init -)"
+eval "$(pyenv virtualenv-init -)"
